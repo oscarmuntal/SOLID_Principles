@@ -13,6 +13,7 @@ fileprivate struct Employee {
     }
 }
 
+/// This Employer only can manage Employees
 fileprivate struct Employer {
     var employees: [Employee]
     
