@@ -12,14 +12,14 @@ import Foundation
 /// It is neither maintainable nor extendable
 
 fileprivate class DataHandler {
-    func handle() {
+    func handle() {
         let data = loadData()
         let list = parse(data: data)
         save(model: list)
     }
     
     func loadData() -> Data {
-        return
+        return Data()
     }
     
     func parse(data: Data) -> Any {

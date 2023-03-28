@@ -13,11 +13,20 @@
 		1F80CACF29D3550A006B7ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F80CACD29D3550A006B7ACE /* Main.storyboard */; };
 		1F80CAD129D3550E006B7ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F80CAD029D3550E006B7ACE /* Assets.xcassets */; };
 		1F80CAD429D3550E006B7ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F80CAD229D3550E006B7ACE /* LaunchScreen.storyboard */; };
-		1F80CADC29D3552D006B7ACE /* SOLID in Resources */ = {isa = PBXBuildFile; fileRef = 1F80CADB29D3552D006B7ACE /* SOLID */; };
+		1F80CADF29D35FFB006B7ACE /* SRP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CADE29D35FFB006B7ACE /* SRP_After.swift */; };
+		1F80CAE129D35FFF006B7ACE /* SRP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAE029D35FFF006B7ACE /* SRP_Before.swift */; };
+		1F80CAE429D36025006B7ACE /* OCP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAE329D36025006B7ACE /* OCP_After.swift */; };
+		1F80CAE629D36028006B7ACE /* OCP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAE529D36028006B7ACE /* OCP_Before.swift */; };
+		1F80CAE929D360C2006B7ACE /* LSP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAE829D360C2006B7ACE /* LSP_After.swift */; };
+		1F80CAEB29D360C5006B7ACE /* LSP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAEA29D360C5006B7ACE /* LSP_Before.swift */; };
+		1F80CAEE29D360E0006B7ACE /* ISP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAED29D360E0006B7ACE /* ISP_After.swift */; };
+		1F80CAF029D360E2006B7ACE /* ISP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAEF29D360E2006B7ACE /* ISP_Before.swift */; };
+		1F80CAF329D360FF006B7ACE /* DIP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAF229D360FF006B7ACE /* DIP_After.swift */; };
+		1F80CAF529D36101006B7ACE /* DIP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80CAF429D36101006B7ACE /* DIP_Before.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F80CAC429D3550A006B7ACE /* SOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F80CAC429D3550A006B7ACE /* SOLID_Principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLID_Principles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F80CAC729D3550A006B7ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F80CAC929D3550A006B7ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F80CACB29D3550A006B7ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +34,16 @@
 		1F80CAD029D3550E006B7ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F80CAD329D3550E006B7ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F80CAD529D3550E006B7ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F80CADB29D3552D006B7ACE /* SOLID */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SOLID; sourceTree = "<group>"; };
+		1F80CADE29D35FFB006B7ACE /* SRP_After.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRP_After.swift; sourceTree = "<group>"; };
+		1F80CAE029D35FFF006B7ACE /* SRP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP_Before.swift; sourceTree = "<group>"; };
+		1F80CAE329D36025006B7ACE /* OCP_After.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCP_After.swift; sourceTree = "<group>"; };
+		1F80CAE529D36028006B7ACE /* OCP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_Before.swift; sourceTree = "<group>"; };
+		1F80CAE829D360C2006B7ACE /* LSP_After.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSP_After.swift; sourceTree = "<group>"; };
+		1F80CAEA29D360C5006B7ACE /* LSP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Before.swift; sourceTree = "<group>"; };
+		1F80CAED29D360E0006B7ACE /* ISP_After.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISP_After.swift; sourceTree = "<group>"; };
+		1F80CAEF29D360E2006B7ACE /* ISP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_Before.swift; sourceTree = "<group>"; };
+		1F80CAF229D360FF006B7ACE /* DIP_After.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIP_After.swift; sourceTree = "<group>"; };
+		1F80CAF429D36101006B7ACE /* DIP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP_Before.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +68,7 @@
 		1F80CAC529D3550A006B7ACE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F80CAC429D3550A006B7ACE /* SOLID.app */,
+				1F80CAC429D3550A006B7ACE /* SOLID_Principles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +76,15 @@
 		1F80CAC629D3550A006B7ACE /* SOLID */ = {
 			isa = PBXGroup;
 			children = (
+				1F80CADD29D35FED006B7ACE /* 1_SingleResponsibilityPrinciple */,
+				1F80CAE229D3600E006B7ACE /* 2_OpenClosedPrinciple */,
+				1F80CAE729D360B9006B7ACE /* 3_LiskovSubstitutionPrinciple */,
+				1F80CAEC29D360CF006B7ACE /* 4_InterfaceSegregationPrinciple */,
+				1F80CAF129D360EF006B7ACE /* 5_DepencencyInversionPrinciple */,
 				1F80CAC729D3550A006B7ACE /* AppDelegate.swift */,
 				1F80CAC929D3550A006B7ACE /* SceneDelegate.swift */,
 				1F80CACB29D3550A006B7ACE /* ViewController.swift */,
 				1F80CACD29D3550A006B7ACE /* Main.storyboard */,
-				1F80CADB29D3552D006B7ACE /* SOLID */,
 				1F80CAD029D3550E006B7ACE /* Assets.xcassets */,
 				1F80CAD229D3550E006B7ACE /* LaunchScreen.storyboard */,
 				1F80CAD529D3550E006B7ACE /* Info.plist */,
@@ -70,12 +92,57 @@
 			path = SOLID;
 			sourceTree = "<group>";
 		};
+		1F80CADD29D35FED006B7ACE /* 1_SingleResponsibilityPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				1F80CADE29D35FFB006B7ACE /* SRP_After.swift */,
+				1F80CAE029D35FFF006B7ACE /* SRP_Before.swift */,
+			);
+			path = 1_SingleResponsibilityPrinciple;
+			sourceTree = "<group>";
+		};
+		1F80CAE229D3600E006B7ACE /* 2_OpenClosedPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				1F80CAE329D36025006B7ACE /* OCP_After.swift */,
+				1F80CAE529D36028006B7ACE /* OCP_Before.swift */,
+			);
+			path = 2_OpenClosedPrinciple;
+			sourceTree = "<group>";
+		};
+		1F80CAE729D360B9006B7ACE /* 3_LiskovSubstitutionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				1F80CAE829D360C2006B7ACE /* LSP_After.swift */,
+				1F80CAEA29D360C5006B7ACE /* LSP_Before.swift */,
+			);
+			path = 3_LiskovSubstitutionPrinciple;
+			sourceTree = "<group>";
+		};
+		1F80CAEC29D360CF006B7ACE /* 4_InterfaceSegregationPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				1F80CAED29D360E0006B7ACE /* ISP_After.swift */,
+				1F80CAEF29D360E2006B7ACE /* ISP_Before.swift */,
+			);
+			path = 4_InterfaceSegregationPrinciple;
+			sourceTree = "<group>";
+		};
+		1F80CAF129D360EF006B7ACE /* 5_DepencencyInversionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				1F80CAF229D360FF006B7ACE /* DIP_After.swift */,
+				1F80CAF429D36101006B7ACE /* DIP_Before.swift */,
+			);
+			path = 5_DepencencyInversionPrinciple;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F80CAC329D35509006B7ACE /* SOLID */ = {
+		1F80CAC329D35509006B7ACE /* SOLID_Principles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F80CAD829D3550E006B7ACE /* Build configuration list for PBXNativeTarget "SOLID" */;
+			buildConfigurationList = 1F80CAD829D3550E006B7ACE /* Build configuration list for PBXNativeTarget "SOLID_Principles" */;
 			buildPhases = (
 				1F80CAC029D35509006B7ACE /* Sources */,
 				1F80CAC129D35509006B7ACE /* Frameworks */,
@@ -85,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = SOLID;
+			name = SOLID_Principles;
 			productName = SOLID;
-			productReference = 1F80CAC429D3550A006B7ACE /* SOLID.app */;
+			productReference = 1F80CAC429D3550A006B7ACE /* SOLID_Principles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F80CABF29D35509006B7ACE /* Build configuration list for PBXProject "SOLID" */;
+			buildConfigurationList = 1F80CABF29D35509006B7ACE /* Build configuration list for PBXProject "SOLID_Principles" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F80CAC329D35509006B7ACE /* SOLID */,
+				1F80CAC329D35509006B7ACE /* SOLID_Principles */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F80CADC29D3552D006B7ACE /* SOLID in Resources */,
 				1F80CAD429D3550E006B7ACE /* LaunchScreen.storyboard in Resources */,
 				1F80CAD129D3550E006B7ACE /* Assets.xcassets in Resources */,
 				1F80CACF29D3550A006B7ACE /* Main.storyboard in Resources */,
@@ -142,9 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F80CAF529D36101006B7ACE /* DIP_Before.swift in Sources */,
+				1F80CAF329D360FF006B7ACE /* DIP_After.swift in Sources */,
+				1F80CADF29D35FFB006B7ACE /* SRP_After.swift in Sources */,
+				1F80CAEE29D360E0006B7ACE /* ISP_After.swift in Sources */,
+				1F80CAE429D36025006B7ACE /* OCP_After.swift in Sources */,
+				1F80CAE929D360C2006B7ACE /* LSP_After.swift in Sources */,
+				1F80CAF029D360E2006B7ACE /* ISP_Before.swift in Sources */,
 				1F80CACC29D3550A006B7ACE /* ViewController.swift in Sources */,
+				1F80CAE629D36028006B7ACE /* OCP_Before.swift in Sources */,
+				1F80CAEB29D360C5006B7ACE /* LSP_Before.swift in Sources */,
 				1F80CAC829D3550A006B7ACE /* AppDelegate.swift in Sources */,
 				1F80CACA29D3550A006B7ACE /* SceneDelegate.swift in Sources */,
+				1F80CAE129D35FFF006B7ACE /* SRP_Before.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muntalapps.SOLID;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muntalapps.SOLID-Principles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muntalapps.SOLID;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muntalapps.SOLID-Principles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F80CABF29D35509006B7ACE /* Build configuration list for PBXProject "SOLID" */ = {
+		1F80CABF29D35509006B7ACE /* Build configuration list for PBXProject "SOLID_Principles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F80CAD629D3550E006B7ACE /* Debug */,
@@ -354,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F80CAD829D3550E006B7ACE /* Build configuration list for PBXNativeTarget "SOLID" */ = {
+		1F80CAD829D3550E006B7ACE /* Build configuration list for PBXNativeTarget "SOLID_Principles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F80CAD929D3550E006B7ACE /* Debug */,
