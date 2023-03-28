@@ -17,3 +17,36 @@ Clients should not be forced to depend upon interfaces that they do not use. No 
 
 import Foundation
 
+fileprivate protocol Workable {
+    func work()
+}
+
+fileprivate protocol Feedable {
+    func eat()
+}
+
+fileprivate class Human: Workable, Feedable {
+    func work() {
+        print("Working...")
+    }
+    
+    func eat() {
+        print("Eating...")
+    }
+}
+
+fileprivate class Robot: Workable {
+    func work() {
+        print("Working...")
+    }
+}
+
+fileprivate func example() {
+    let human = Human()
+    human.work()        // prints "Working..."
+    human.eat()         // prints "Eating..."
+    
+    let robot = Robot()
+    robot.work()
+//    robot.eat()       // Not possible to call this method from Robot class because it doesn't need it
+}
