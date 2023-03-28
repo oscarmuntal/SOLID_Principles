@@ -17,3 +17,30 @@
 
 import Foundation
 
+fileprivate protocol PaymentProtocol {
+    func makePayment(amount: Double)
+}
+
+fileprivate class CashPayment: PaymentProtocol {
+    func makePayment(amount: Double) {
+        // perform
+    }
+}
+
+fileprivate class VisaPayment: PaymentProtocol {
+    func makePayment(amount: Double) {
+        // perform
+    }
+}
+
+fileprivate class MasterClassPayment: PaymentProtocol {
+    func makePayment(amount: Double) {
+        // perform
+    }
+}
+
+fileprivate class PaymentManager {
+    func makePayment(amount: Double, payment: PaymentProtocol) {
+        payment.makePayment(amount: amount)
+    }
+}
